@@ -85,7 +85,7 @@ h1 { max-width: none; font-size: clamp(2.8rem, 6vw, 5rem); line-height: 1.04; wh
 .visual-content { display: flex; min-height: 230px; flex-direction: column; padding: 22px; }
 .visual-content h3 { font-size: 1.24rem; line-height: 1.18; }
 .visual-content p { margin: 11px 0 0; color: var(--muted); line-height: 1.55; }
-.visual-content .visual-question { color: var(--text); font-weight: 500; }
+.visual-content .visual-summary { color: var(--text); font-weight: 500; }
 .visual-content ul { display: flex; flex-wrap: wrap; gap: 7px; padding: 0; margin: auto 0 0; list-style: none; }
 .visual-content li { padding: 6px 9px; border-radius: 5px; background: var(--blue-soft); color: var(--blue); font-size: 0.78rem; font-weight: 700; }
 .statistical .visual-content li { background: #f2effd; color: #5b45a5; }
