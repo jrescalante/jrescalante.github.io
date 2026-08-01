@@ -46,7 +46,8 @@ h1 { max-width: none; font-size: clamp(2.8rem, 6vw, 5rem); line-height: 1.04; wh
 .section-heading h2, .contact-card h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); line-height: 1.16; }
 .publication-feature { display: grid; grid-template-columns: 215px minmax(0, 1fr); gap: 34px; max-width: 880px; padding: 28px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); box-shadow: var(--shadow); }
 .book-cover-link { display: block; align-self: center; }
-.book-cover-link img { display: block; width: 100%; border-radius: 4px; box-shadow: 0 10px 22px rgba(9, 30, 66, 0.18); }
+.book-cover-link img { display: block; width: 100%; border-radius: 4px; box-shadow: 0 10px 22px rgba(9, 30, 66, 0.18); transition: transform 180ms ease; }
+.book-cover-link:hover img, .book-cover-link:focus-visible img { transform: translateY(-3px); }
 .publication-content h3 { font-size: clamp(1.55rem, 3vw, 2.25rem); line-height: 1.12; }
 .publication-content > p:not(.card-kicker) { max-width: 650px; margin: 14px 0 0; color: var(--muted); line-height: 1.65; }
 .publication-content .publication-meta { margin-top: 8px; color: var(--text); font-size: 0.91rem; font-weight: 700; }
