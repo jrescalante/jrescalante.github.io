@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio personal para GitHub Pages con proyectos, experiencia y contacto." />
+    <title>José Rafael Escalante | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <aside class="sidebar">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio"><img class="profile-avatar" src="https://github.com/jrescalante.png?size=160" alt="José Rafael Escalante" /><span>José Rafael<br />Escalante</span></a>
+        <nav class="nav" aria-label="Navegación principal">
+          <a class="nav-link" href="#inicio"><i data-lucide="house"></i><span>Inicio</span></a>
+          <a class="nav-link" href="#visuales"><i data-lucide="chart-no-axes-combined"></i><span>Visuales</span></a>
+          <a class="nav-link" href="#publicaciones"><i data-lucide="book-open"></i><span>Publicaciones</span></a>
+          <a class="nav-link" href="#blog"><i data-lucide="notebook-pen"></i><span>Blog</span></a>
+          <a class="nav-link" href="https://www.linkedin.com/in/jrescalante/" target="_blank" rel="noreferrer"><img class="platform-icon" src="https://api.iconify.design/logos/linkedin-icon.svg" alt="" /><span>LinkedIn</span><i class="external" data-lucide="arrow-up-right"></i></a>
+          <a class="nav-link" href="https://github.com/jrescalante" target="_blank" rel="noreferrer"><img class="platform-icon" src="https://api.iconify.design/logos/github-icon.svg" alt="" /><span>GitHub</span><i class="external" data-lucide="arrow-up-right"></i></a>
+        </nav>
+        <a class="sidebar-contact" href="mailto:jrescalante@sentidoanalitica.com"><i data-lucide="mail"></i><span>Hablemos</span></a>
+      </aside>
+      <main>
+        <section id="inicio" class="hero">
+          <div class="hero-main">
+            <h1>José Rafael Escalante</h1>
+            <p class="professional-title">Consultor Power BI &amp; Microsoft Fabric <span>·</span> MVP Data Platform <span>·</span> Autor, instructor y creador de contenido técnico</p>
+            <div class="about-copy">
+              <p class="eyebrow section-label">Acerca de</p>
+              <p>Diseño soluciones con Power BI y Fabric que combinan modelado semántico, arquitectura, visualización e ingeniería analítica para transformar información compleja en conocimiento útil para la toma de decisiones.</p>
+              <p>En los últimos años he explorado cómo la inteligencia artificial está redefiniendo el desarrollo de soluciones analíticas: desde su diseño y construcción hasta su mantenimiento. Me interesa incorporar estas capacidades sin perder de vista el criterio técnico, la claridad del modelo y los fundamentos que hacen sostenible una plataforma de datos.</p>
+              <p>Este sitio reúne parte de ese recorrido a través de proyectos, artículos, conferencias, videos y desarrollos propios. Es un espacio para compartir experiencias, investigaciones e ideas sobre la evolución de la inteligencia empresarial, la ingeniería de datos y las posibilidades del ecosistema actual.</p>
+            </div>
+          </div>
+        </section>
+
+      <section id="visuales" class="section">
+        <div class="section-heading">
+          <p class="eyebrow section-label">Visuales</p>
+          <h2>Una colección de objetos analíticos.</h2>
+          <p class="section-intro">Cada colección agrupa visuales por tecnología y propósito. El catálogo reúne desarrollos propios y está preparado para incorporar nuevas disciplinas, repositorios y enfoques analíticos.</p>
+        </div>
+        <div class="visual-tabs" role="tablist" aria-label="Filtrar visuales por tecnología">
+          <button class="visual-tab is-active" type="button" role="tab" aria-selected="true" data-filter="all">Todos</button>
+          <button class="visual-tab" type="button" role="tab" aria-selected="false" data-filter="vega">Vega</button>
+        </div>
+        <div class="collection-heading"><span class="collection-icon"><i data-lucide="sparkles"></i></span><div><h3>Deneb para Power BI con Vega</h3></div></div>
+        <div class="visual-grid">
+          <article class="visual-card commercial" data-technology="vega">
+            <a class="visual-preview-link" href="https://github.com/jrescalante/Vega/blob/main/commercial-profitability-cockpit/README_ES.md" target="_blank" rel="noreferrer" aria-label="Abrir documentación del Panel de Rentabilidad Comercial"><img src="https://sentidoanalitica.com/wp-content/uploads/2026/07/commercial-profitability-cockpit.gif" alt="Vista previa del Panel de Rentabilidad Comercial" /></a>
+            <div class="visual-content"><h3>Panel de Rentabilidad Comercial</h3><p>Cruza crecimiento de ingresos, brecha de margen y objetivo por SKU para priorizar crecimiento saludable y riesgo comercial.</p><ul><li>Vega / Deneb</li><li>Power BI</li><li>Decisión de rentabilidad</li></ul></div>
+          </article>
+          <article class="visual-card commercial" data-technology="vega">
+            <a class="visual-preview-link" href="https://github.com/jrescalante/Vega/blob/main/elasticidad-precio-demanda/README.md" target="_blank" rel="noreferrer" aria-label="Abrir documentación de Elasticidad Precio-Demanda"><img src="https://sentidoanalitica.com/wp-content/uploads/2026/06/elasticidad-precio-demanda-v2.gif" alt="Vista previa del visual de Elasticidad Precio-Demanda" /></a>
+            <div class="visual-content"><h3>Elasticidad Precio-Demanda</h3><p>Calcula sensibilidad al precio y organiza los SKU en cuadrantes para leer riesgo de volumen y captura de valor.</p><ul><li>Vega / Deneb</li><li>Power BI</li><li>Decisión de precios</li></ul></div>
+          </article>
+          <article class="visual-card statistical" data-technology="vega">
+            <a class="visual-preview-link" href="https://github.com/jrescalante/Vega/blob/main/ewma-control-chart/README.md" target="_blank" rel="noreferrer" aria-label="Abrir documentación del gráfico de control EWMA"><img src="https://sentidoanalitica.com/wp-content/uploads/2026/01/EWMA-Control-Chart-Params-v1.gif" alt="Vista previa del gráfico de control EWMA" /></a>
+            <div class="visual-content"><h3>Gráfico de Control EWMA</h3><p>Detecta cambios pequeños en el promedio del proceso mediante una media móvil ponderada y límites dinámicos.</p><ul><li>Vega / Deneb</li><li>Power BI</li><li>Control estadístico</li></ul></div>
+          </article>
+          <article class="visual-card statistical" data-technology="vega">
+            <a class="visual-preview-link" href="https://github.com/jrescalante/Vega/blob/main/spc-control-chart/README.md" target="_blank" rel="noreferrer" aria-label="Abrir documentación del gráfico de control SPC"><img src="https://sentidoanalitica.com/wp-content/uploads/2026/01/SPC-Control-Chart-v1.gif" alt="Vista previa del gráfico de control SPC" /></a>
+            <div class="visual-content"><h3>Control Estadístico de Procesos</h3><p>Combina límites de control, zonas y reglas WECO para identificar señales y desviaciones del proceso.</p><ul><li>Vega / Deneb</li><li>Power BI</li><li>Control estadístico</li></ul></div>
+          </article>
+          <article class="visual-card statistical" data-technology="vega">
+            <a class="visual-preview-link" href="https://github.com/jrescalante/Vega/blob/main/process-capability-histogram/README.md" target="_blank" rel="noreferrer" aria-label="Abrir documentación del histograma de capacidad"><img src="https://sentidoanalitica.com/wp-content/uploads/2026/01/process-capability-histogram.gif" alt="Vista previa del histograma de capacidad de proceso" /></a>
+            <div class="visual-content"><h3>Histograma de Capacidad</h3><p>Relaciona la distribución del proceso con límites de especificación y métricas de capacidad Cp y Cpk.</p><ul><li>Vega / Deneb</li><li>Power BI</li><li>Control estadístico</li></ul></div>
+          </article>
+          <article class="visual-card demographic" data-technology="vega">
+            <a class="visual-preview-link" href="https://github.com/jrescalante/Vega/blob/main/population-pyramid/README_ES.md" target="_blank" rel="noreferrer" aria-label="Abrir documentación de la Pirámide Poblacional"><img src="https://sentidoanalitica.com/wp-content/uploads/2026/07/population-pyramid.gif" alt="Vista previa de la Pirámide Poblacional" /></a>
+            <div class="visual-content"><h3>Pirámide Poblacional</h3><p>Compara estructura por edad y sexo entre períodos, con variaciones y lectura demográfica integrada.</p><ul><li>Vega / Deneb</li><li>Power BI</li><li>Análisis demográfico</li></ul></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="publicaciones" class="section publications-section">
+        <div class="section-heading">
+          <p class="eyebrow section-label">Publicaciones</p>
+        </div>
+        <article class="publication-feature">
+          <a class="book-cover-link" href="https://www.microsoftpressstore.com/store/microsoft-power-bi-step-by-step-9780135468326" target="_blank" rel="noreferrer" aria-label="Ver Microsoft Power BI Step by Step en Microsoft Press">
+            <img src="https://www.microsoftpressstore.com/ShowCover.aspx?isbn=9780135468326&amp;type=f" alt="Portada de Microsoft Power BI Step by Step" />
+          </a>
+          <div class="publication-content">
+            <p class="card-kicker">Microsoft Press · 1.ª edición · 2025</p>
+            <h3>Microsoft Power BI Step by Step</h3>
+            <p class="publication-meta">Coautor junto a <a class="coauthor-link" href="https://www.linkedin.com/in/nuricugarte/" target="_blank" rel="noreferrer">Nuric Ugarte</a> · 320 páginas</p>
+            <p>Una guía práctica para desarrollar habilidades en Power BI, desde la conexión y transformación de datos hasta el modelado, DAX, visualización y colaboración segura en Power BI Service.</p>
+            <p>Dirigido a analistas, profesionales de datos, usuarios avanzados de Excel y responsables de tecnología que buscan construir soluciones de inteligencia empresarial de forma clara, progresiva y aplicada.</p>
+            <div class="publication-topics"><span>Modelado semántico</span><span>DAX</span><span>Visualización</span><span>Power BI Service</span><span>Copilot</span></div>
+            <div class="publication-links">
+              <a class="publication-link" href="https://www.microsoftpressstore.com/store/microsoft-power-bi-step-by-step-9780135468326" target="_blank" rel="noreferrer">Ver en Microsoft Press <i data-lucide="arrow-up-right"></i></a>
+              <a class="publication-link" href="https://www.pearson.com/en-us/subject-catalog/p/microsoft-power-bi-step-by-step/P200000014434/9780135468319" target="_blank" rel="noreferrer">Ver en Pearson <i data-lucide="arrow-up-right"></i></a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="blog" class="section blog-section">
+        <a class="blog-feature" data-latest-blog href="https://sentidoanalitica.com/opinion/la-destruccion-del-pasado-y-la-nueva-tecnica-en-la-analitica-de-datos" target="_blank" rel="noreferrer" aria-label="Leer La destrucción del pasado y la nueva técnica en la analítica de datos">
+          <div class="blog-primary">
+            <p class="blog-kicker section-label">Blog</p>
+            <p class="blog-latest">Última publicación del blog</p>
+            <h3 data-blog-title>La destrucción del pasado y la nueva técnica en la analítica de datos</h3>
+            <p class="blog-meta" data-blog-meta>10 de marzo de 2026 <span>·</span> Opinión <span>·</span> Por José Rafael Escalante</p>
+            <div class="blog-image-link">
+            <img data-blog-image src="https://sentidoanalitica.com/wp-content/uploads/2026/01/SPC-Control-Chart-v1.gif" alt="Gráfico de control estadístico creado con Vega" />
+            </div>
+          </div>
+          <div class="blog-content">
+            <p class="blog-intro" data-blog-intro>Una reflexión sobre cómo la inteligencia artificial y los agentes están cambiando la forma de diseñar, construir y validar soluciones analíticas, sin sustituir la necesidad de criterio técnico y fundamentos sólidos.</p>
+          </div>
+        </a>
+      </section>
+
+      <section id="contacto" class="section contact-section">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">Contacto</p>
+            <h2>Construyamos algo claro y útil.</h2>
+            <p>Para proyectos, colaboración o una conversación sobre analítica comercial.</p>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:jrescalante@sentidoanalitica.com"><i data-lucide="mail"></i>jrescalante@sentidoanalitica.com</a>
+          </div>
+        </div>
+      </section>
+        <footer class="footer"><p>José Rafael Escalante · Analítica comercial y visualización de datos</p></footer>
+      </main>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
