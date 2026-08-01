@@ -24,8 +24,6 @@ a { color: inherit; text-decoration: none; }
 .nav-link:hover { color: var(--blue); background: var(--blue-soft); }
 .nav-link svg, .sidebar-contact svg { width: 19px; height: 19px; }
 .platform-icon { width: 19px; height: 19px; flex: 0 0 19px; filter: grayscale(1) brightness(0) saturate(100%) invert(42%) sepia(10%) saturate(1338%) hue-rotate(180deg) brightness(94%) contrast(87%); }
-.youtube-icon { filter: none; }
-.spotify-icon { filter: none; }
 .nav-link .external { width: 15px; height: 15px; margin-left: auto; opacity: 0.65; }
 .sidebar-contact { margin-top: auto; color: var(--gmail-red); background: #fff5f4; }
 
@@ -42,7 +40,7 @@ h1 { max-width: none; font-size: clamp(2.8rem, 6vw, 5rem); line-height: 1.04; wh
 
 .section { padding: 62px 0 0; }
 .section-heading { margin-bottom: 24px; }
-.section-label { font-size: clamp(1.05rem, 1.8vw, 1.2rem); font-weight: 800; letter-spacing: 0.04em; }
+.section-label { font-family: "DM Sans", sans-serif; font-size: clamp(1.05rem, 1.8vw, 1.2rem); font-weight: 800; letter-spacing: 0.04em; }
 .section-heading h2, .contact-card h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); line-height: 1.16; }
 .publication-feature { display: grid; grid-template-columns: 215px minmax(0, 1fr); gap: 34px; max-width: 880px; padding: 28px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); box-shadow: var(--shadow); }
 .book-cover-link { display: block; align-self: center; }
@@ -59,7 +57,7 @@ h1 { max-width: none; font-size: clamp(2.8rem, 6vw, 5rem); line-height: 1.04; wh
 .publication-link svg { width: 17px; height: 17px; }
 .blog-feature { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(260px, 0.75fr); max-width: 880px; overflow: hidden; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); box-shadow: var(--shadow); cursor: pointer; }
 .blog-primary { padding: 28px 28px 0; }
-.blog-kicker { margin: 0 0 7px; color: var(--blue); font-size: 0.78rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+.blog-kicker { margin: 0 0 7px; }
 .blog-latest { margin: 0 0 10px; color: var(--muted); font-size: 0.8rem; font-weight: 700; }
 .blog-primary h3 { font: 700 clamp(1.35rem, 2.2vw, 1.75rem)/1.14 "Manrope", sans-serif; letter-spacing: -0.04em; }
 .blog-image-link { display: grid; margin-top: 20px; place-items: center; background: #edf3f8; }
