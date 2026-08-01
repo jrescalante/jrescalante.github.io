@@ -25,6 +25,7 @@ a { color: inherit; text-decoration: none; }
 .nav-link svg, .sidebar-contact svg { width: 19px; height: 19px; }
 .platform-icon { width: 19px; height: 19px; flex: 0 0 19px; filter: grayscale(1) brightness(0) saturate(100%) invert(42%) sepia(10%) saturate(1338%) hue-rotate(180deg) brightness(94%) contrast(87%); }
 .youtube-icon { filter: none; }
+.spotify-icon { filter: none; }
 .nav-link .external { width: 15px; height: 15px; margin-left: auto; opacity: 0.65; }
 .sidebar-contact { margin-top: auto; color: var(--gmail-red); background: #fff5f4; }
 
