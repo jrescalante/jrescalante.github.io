@@ -103,8 +103,7 @@ h1 { max-width: none; font-size: clamp(2.8rem, 6vw, 5rem); line-height: 1.04; wh
 .footer-profile p { margin: 13px 0 0; line-height: 1.6; }
 .footer-profile p:first-of-type { color: var(--blue); font-weight: 700; }
 .footer-profile p:first-of-type span { margin: 0 5px; color: #9aa9ba; }
-.footer-name { display: inline-flex; align-items: center; gap: 10px; color: var(--blue); font: 800 1.05rem/1.2 "Manrope", sans-serif; }
-.footer-name:hover { color: #084d91; }
+.footer-name { display: inline-flex; align-items: center; gap: 10px; color: var(--text); font: 800 1.05rem/1.2 "Manrope", sans-serif; }
 .footer-name img { width: 38px; height: 38px; border: 2px solid #fff; border-radius: 50%; box-shadow: 0 0 0 2px var(--blue-soft); object-fit: cover; }
 .footer-column { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
 .footer-title { margin: 0 0 3px; color: var(--muted); font-size: 0.76rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
