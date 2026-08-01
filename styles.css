@@ -42,6 +42,7 @@ h1 { max-width: none; font-size: clamp(2.8rem, 6vw, 5rem); line-height: 1.04; wh
 .section-heading { margin-bottom: 24px; }
 .section-label { font-family: "DM Sans", sans-serif; font-size: clamp(1.05rem, 1.8vw, 1.2rem); font-weight: 800; letter-spacing: 0.04em; }
 .section-heading h2, .contact-card h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); line-height: 1.16; }
+.contact-card h2 { font-size: clamp(1.55rem, 2.5vw, 2.2rem); }
 .publication-feature { display: grid; grid-template-columns: 215px minmax(0, 1fr); gap: 34px; max-width: 880px; padding: 28px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); box-shadow: var(--shadow); }
 .book-cover-link { display: block; align-self: center; }
 .book-cover-link img { display: block; width: 100%; border-radius: 4px; box-shadow: 0 10px 22px rgba(9, 30, 66, 0.18); transition: transform 180ms ease; }
@@ -94,6 +95,7 @@ h1 { max-width: none; font-size: clamp(2.8rem, 6vw, 5rem); line-height: 1.04; wh
 .contact-section { padding-bottom: 24px; }
 .contact-card { display: flex; align-items: center; justify-content: space-between; gap: 30px; padding: 32px; border: 1px solid #cfe1f4; border-radius: 10px; background: #f7fbff; }
 .contact-card p { margin: 12px 0 0; color: var(--muted); line-height: 1.6; }
+.contact-card .section-label { color: var(--blue); }
 .contact-links a { display: inline-flex; align-items: center; gap: 10px; padding: 13px 15px; border-radius: 8px; color: #fff; background: var(--blue); font-weight: 700; }
 .contact-links svg { width: 18px; height: 18px; }
 .footer { margin-top: 60px; padding: 42px 0 28px; border-top: 1px solid var(--line); color: var(--muted); }
