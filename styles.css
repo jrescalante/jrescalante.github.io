@@ -95,8 +95,21 @@ h1 { max-width: none; font-size: clamp(2.8rem, 6vw, 5rem); line-height: 1.04; wh
 .contact-card p { margin: 12px 0 0; color: var(--muted); line-height: 1.6; }
 .contact-links a { display: inline-flex; align-items: center; gap: 10px; padding: 13px 15px; border-radius: 8px; color: #fff; background: var(--blue); font-weight: 700; }
 .contact-links svg { width: 18px; height: 18px; }
-.footer { padding-top: 44px; color: var(--muted); font-size: 0.9rem; }
-.footer p { margin: 0; }
+.footer { margin-top: 60px; padding: 42px 0 28px; border-top: 1px solid var(--line); color: var(--muted); }
+.footer-grid { display: grid; grid-template-columns: minmax(220px, 1.5fr) repeat(2, minmax(130px, 0.75fr)) minmax(220px, 1.1fr); gap: 38px; }
+.footer-profile p, .footer-contact > p:not(.footer-title) { margin: 13px 0 0; line-height: 1.6; }
+.footer-profile p:first-of-type { color: var(--blue); font-weight: 700; }
+.footer-name { display: inline-flex; align-items: center; gap: 10px; color: var(--text); font: 800 1.05rem/1.2 "Manrope", sans-serif; }
+.footer-name img { width: 38px; height: 38px; border: 2px solid #fff; border-radius: 50%; box-shadow: 0 0 0 2px var(--blue-soft); object-fit: cover; }
+.footer-column { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
+.footer-title { margin: 0 0 3px; color: var(--muted); font-size: 0.76rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+.footer-column > a { display: inline-flex; align-items: center; gap: 6px; color: var(--text); font-size: 0.92rem; }
+.footer-column > a:hover { color: var(--blue); }
+.footer-column > a svg { width: 14px; height: 14px; }
+.footer-email { display: inline-flex; align-items: center; gap: 8px; margin-top: 20px; padding: 11px 14px; border-radius: 7px; color: #fff; background: var(--blue); font-size: 0.9rem; font-weight: 700; }
+.footer-email svg { width: 16px; height: 16px; }
+.footer-bottom { display: flex; justify-content: space-between; gap: 20px; margin-top: 38px; padding-top: 22px; border-top: 1px solid var(--line); font-size: 0.82rem; }
+.footer-bottom p { margin: 0; }
 
 @media (max-width: 780px) {
   .site-shell { display: block; }
@@ -114,6 +127,8 @@ h1 { max-width: none; font-size: clamp(2.8rem, 6vw, 5rem); line-height: 1.04; wh
   .blog-primary { padding: 24px 24px 0; }
   .blog-image-link img { min-height: 220px; max-height: 340px; }
   .contact-card { display: grid; padding: 24px; }
+  .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px; }
+  .footer-profile { grid-column: 1 / -1; max-width: 520px; }
 }
 
 @media (max-width: 460px) {
@@ -124,4 +139,8 @@ h1 { max-width: none; font-size: clamp(2.8rem, 6vw, 5rem); line-height: 1.04; wh
   .publication-feature { grid-template-columns: 1fr; padding: 22px; }
   .book-cover-link { width: min(190px, 100%); }
   .contact-links a { font-size: 0.84rem; }
+  .footer { margin-top: 44px; padding-top: 32px; }
+  .footer-grid { grid-template-columns: 1fr; gap: 26px; }
+  .footer-profile { grid-column: auto; }
+  .footer-bottom { display: grid; gap: 8px; margin-top: 30px; }
 }
