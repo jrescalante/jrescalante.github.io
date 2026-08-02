@@ -75,7 +75,12 @@ if (latestBlogCard) {
 				category,
 				`Por ${author}`
 			]);
-			latestBlogCard.querySelector('[data-blog-intro]').textContent = stripHtml(post.excerpt.rendered);
+			const introEl = latestBlogCard.querySelector('[data-blog-intro]');
+			if (latestBlogCard.dataset.blogSummary) {
+				introEl.textContent = latestBlogCard.dataset.blogSummary;
+			} else {
+				introEl.textContent = stripHtml(post.excerpt.rendered);
+			}
 
 			if (image?.source_url) {
 				const blogImage = latestBlogCard.querySelector('[data-blog-image]');
